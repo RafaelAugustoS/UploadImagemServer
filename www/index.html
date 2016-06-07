@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blank App Designer Cordova Web App Project Template</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+
+<body ng-app="MyApp" ng-controller="MyCtrl">
+    
+    
+<button onclick="capturePhoto();">Capturar foto</button><br>
+<button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">Pegar da Biblioteca</button><br>
+<img id="image" src="" style="display:none;width:100%;">
+<button onclick="upload();">Upload</button>
+
+    
+    <script src="cordova.js" id="xdkJScordova_"></script>
+            
+    <script src="js/init-app.js"></script>   
+    <script src="xdk/init-dev.js"></script>  
+    <script src="js/angular.min.js"></script>
+    <script src="js/ng-cordova.js"></script>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/funcoes.js"></script>
+    <script src="js/app.js"></script>  
+</body>
+</html>
